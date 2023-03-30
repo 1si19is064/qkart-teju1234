@@ -1,0 +1,3 @@
+# Setup file template to upload data to MongoDB Atlas
+mongoimport --uri "mongodb+srv://varunraj:3l1VLsefDcwRwVnP@qkart-node.zp1ed2m.mongodb.net/?retryWrites=true&w=majority" --drop --collection users --file data/export_qkart_users.json
+mongoimport --uri "mongodb+srv://varunraj:3l1VLsefDcwRwVnP@qkart-node.zp1ed2m.mongodb.net/?retryWrites=true&w=majority" --drop --collection products --file data/export_qkart_products.json
